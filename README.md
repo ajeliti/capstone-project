@@ -2,6 +2,14 @@
 
 ![image](https://github.com/user-attachments/assets/55bdb4c5-a96c-4e00-b799-41a59c644857)
 
+## Name of the Group: EYAI CYNDIKET
+#### Members
+1. Lionel Ajeliti
+2. Kavata Musyoka
+3. Tabby Mirara
+4. AMos Kipkoech
+5. Stanley Macharia
+
 # Overview
 From time immemorial, skin care has been a key factor for beauty. How well one takes care of  their skin can enhance or worsen their beauty.  Since skin care is vital for beauty, especially for women, companies have seized the opportunity to create skin care products.
 
