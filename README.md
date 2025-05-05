@@ -92,3 +92,44 @@ Evaluates how well the model captures sentiment from varied linguistic patterns 
 Misclassification Rate on Ambiguous Reviews: < 10%
 
 Assesses robustness by tracking errors in mixed or borderline sentiment texts.
+
+# 1. Dataset Loading
+We will load all the review datasets, check for null entries, merge them into one dataset and then drop unnecessary columns for Exploratory Data Analysis (EDA).
+There are five datasets that were used. They were merged to form  a dataset that has 19 columns and 285,412 rows.
+
+# 2. DATA CLEANING AND PRE-PROCESSING
+We'll drop the unnecessary columns, impute and/or drop missing values.
+Dropped irrelevant columns: Unnamed: 0, Unnamed: 0.1, helpfulness, and submission_time.
+
+Missing value treatment:
+
+Filled is_recommended with median.
+
+Imputed skin_tone, eye_color, skin_type, and hair_color using the mode.
+
+Dropped rows with missing review_text and review_title.
+
+After cleaning, the dataset was reduced to 205,718 rows and 15 columns, with all missing values addressed.
+
+#### Created a new column known as sentiment
+Created a new Sentiment column based on the rating where:
+
+Positive if rating > 3
+
+Neutral if rating = 3
+
+Negative if rating < 3
+
+# DATA PRE-PROCESSING (on review_text)
+Lowercased all text.
+
+Removed noise: punctuation, digits, extra spaces, and expanded contractions.
+
+Tokenized the cleaned text using NLTK.
+
+Removed stopwords to focus on meaningful content.
+
+These steps prepare the dataset for Exploratory Data Analysis (EDA) and further modeling tasks such as sentiment classification or recommendation.
+
+
+
