@@ -131,5 +131,6 @@ Removed stopwords to focus on meaningful content.
 
 These steps prepare the dataset for Exploratory Data Analysis (EDA) and further modeling tasks such as sentiment classification or recommendation.
 
+![image](https://github.com/user-attachments/assets/a36254b8-d7f5-4078-b21b-f03cd14c53b5)
 
 
