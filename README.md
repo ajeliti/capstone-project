@@ -133,4 +133,7 @@ These steps prepare the dataset for Exploratory Data Analysis (EDA) and further 
 
 ![image](https://github.com/user-attachments/assets/a36254b8-d7f5-4078-b21b-f03cd14c53b5)
 
+![image](https://github.com/user-attachments/assets/b869d121-cbc8-4f50-a7a9-700aa217d676)
+
+
 
