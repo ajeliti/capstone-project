@@ -310,30 +310,39 @@ Checking on the AUC Score of 0.90 the model has the same AUC score as the Logist
 Random Forest outperformed XGBOOST.
 
 ### 7. CONCLUSION AND RECOMMENDATIONS
-7.1 Conclusions
+
+#### 7.1 Conclusions
+
 From the above, the Random Forest model has the highest AUC of 0.92 thus has the best classification performance compared to the other models as it provides the most accurate trade-off between sensitivity (recall) and specificity.
 
 The logistic regression model has a good performance of 0.90 that indicates its capable of distinguishing between the positive and negative classes. It provides a strong balance between precision and recall.
 
 Naive Bayes has the lowest AUC of 0.77
 
-7.2 Recommendations
-1. Personalized Product Displays
+#### 7.2 Recommendations
+
+We Recommend-
+1. Personalized Product Displays for online stores
 Use skin tone and sentiment analytics to dynamically surface goods in your online and mobile catalogs. For instance, if consumers with darker skin tones have a greater favorable attitude for a specific moisturizer, it should be promoted more prominently.
 
-2. Personalized Recommendation Widget.
-Create an on-site "What Works for You" survey where buyers may pick their skin tone and obtain a ranked list of top-rated sentiment products, including user quotations.
-
-3. DEI(Diversity, Equity, and Inclusion) Transparency
+2. DEI(Diversity, Equity, and Inclusion) Transparency for companies
 Publish quarterly "Skin-Tone Sentiment Scores" with CSR(Corporate Social Responsibility) reports to demonstrate commitment and development over time.
 
-4. Promotional Targeting
-Schedule flash sales or bundle offers based on growing or lagging sentiment. For example, give a "Buy One, Get One" on goods with neutral feedback to encourage a test.
+3. Promotional Targeting for online stores
+Schedule flash sales or bundle offers based on lagging sentiments on products. For example, give a "Buy One, Get One" on goods with neutral feedback to encourage a test.
 
-5. Educational Content¶
-Combine data insights with tailored how-to instructions or ingredient glossaries to explain why specific products work better for particular skin tones.
+4. Learning Tutorials/material for customers on how to use specific products
+Generate educational materials explaining the best products that most customers preffer and the different price categories based on customer's budget.
 
-7.3 Next Steps
+#### 7.3 Next Steps
+
+1. Personalized Recommendation Widget.
+Create an on-site "What Works for You" survey where buyers may select their skin tone and obtain a list of top-rated products based on sentiments, including user quotations.
+
+2. Creating a real-time sentiment insight dashboard for online stores.
+This will generate reports based on real-time sentiments analysis, product monitoring, marketing insights and proactive customer service action.
+
+
 
 
 
