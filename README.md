@@ -168,12 +168,6 @@ We trained a logistic regression model as our baseline. The model achieved:
 
 How all the models performed.
 
-#### Model  	#### Accura#### F1-Score	 ####AUC
-Logistic Regression 	0.95	     0.87	    0.98
-Linear SVC	         0.95	     0.87	    0.98
-Random Forest	      0.96	     0.90	    0.98
-XG BOOST	            0.96	     0.91	    0.99
-
 
 ### 6. Model Evaluation
 ### ROC Curve for Model Comparison
