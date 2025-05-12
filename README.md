@@ -36,13 +36,13 @@ This project deals with the demand for more understanding into skincare product 
 
 Main Objective: To perform sentiment analysis on customer reviews on products to enhance customer satisfaction.
 
-To use data visualizations tools to assess product categories and brand popularity to guide companies on future pricing
+-To use data visualizations tools to assess product categories and brand popularity to guide companies on future pricing
 
-To assess price range across various products to improve affordability of products by customers.
+-To assess price range across various products to improve affordability of products by customers.
 
-To detect common keywords and phrases to highlight positive, neutral and negative reviews on products to understand customer nsatisfaction and dissatisfaction.
+-To detect common keywords and phrases to highlight positive, neutral and negative reviews on products to understand customer nsatisfaction and dissatisfaction.
 
-To provide actionable insights in order to improve customer satisfaction across various products, brands and categories.
+-To provide actionable insights in order to improve customer satisfaction across various products, brands and categories.
 
 ### Stakeholders
 Online stores that sell skin care products.
