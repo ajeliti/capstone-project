@@ -37,8 +37,11 @@ This project deals with the demand for more understanding into skincare product 
 Main Objective: To perform sentiment analysis on customer reviews on products to enhance customer satisfaction.
 
 To use data visualizations tools to assess product categories and brand popularity to guide companies on future pricing
+
 To assess price range across various products to improve affordability of products by customers.
+
 To detect common keywords and phrases to highlight positive, neutral and negative reviews on products to understand customer nsatisfaction and dissatisfaction.
+
 To provide actionable insights in order to improve customer satisfaction across various products, brands and categories.
 
 ### Stakeholders
@@ -63,7 +66,8 @@ skin_tone: Author's skin tone
 skin_type: Author's skin type
 
 ### METRIC OF SUCCESS
-A. Accuracy & Classification Metrics:
+
+#### A. Accuracy & Classification Metrics:
 Accuracy: 88%
 
 Measures overall correctness of sentiment predictions (positive, negative, neutral).
@@ -80,7 +84,7 @@ F1 Score: 0.84
 
 Harmonic mean of precision and recall, giving a single measure of model effectiveness.
 
-B. Business & Engagement Metrics:
+#### B. Business & Engagement Metrics:
 Sentiment Distribution Consistency: 95%
 
 Checks if the sentiment classification follows expected distribution patterns across brands/products.
@@ -89,7 +93,7 @@ Top Brand Recognition Accuracy: 90%
 
 Ensures the most positively reviewed brands align with actual high-performing brands in the dataset.
 
-C. Coverage & Robustness:
+#### C. Coverage & Robustness:
 Category Coverage: 100%
 
 Ensures all product categories (e.g., moisturizers, cleansers, serums) are represented in sentiment classification.
@@ -102,34 +106,9 @@ Misclassification Rate on Ambiguous Reviews: < 10%
 
 Assesses robustness by tracking errors in mixed or borderline sentiment texts.
 
-### 1. Dataset Loading
-We will load all the review datasets, check for null entries, merge them into one dataset and then drop unnecessary columns for Exploratory Data Analysis (EDA).
-There are five datasets that were used. They were merged to form  a dataset that has 19 columns and 285,412 rows.
-
 ### 2. DATA CLEANING AND PRE-PROCESSING
 We'll drop the unnecessary columns, impute and/or drop missing values.
-Dropped irrelevant columns: Unnamed: 0, Unnamed: 0.1, helpfulness, and submission_time.
 
-Missing value treatment:
-
-Filled is_recommended with median.
-
-Imputed skin_tone, eye_color, skin_type, and hair_color using the mode.
-
-Dropped rows with missing review_text and review_title.
-
-After cleaning, the dataset was reduced to 205,718 rows and 15 columns, with all missing values addressed.
-
-#### Created a new column known as sentiment
-Created a new Sentiment column based on the rating where:
-
-Positive if rating > 3
-
-Neutral if rating = 3
-
-Negative if rating < 3
-
-### DATA PRE-PROCESSING (on review_text)
 Lowercased all text.
 
 Removed noise: punctuation, digits, extra spaces, and expanded contractions.
