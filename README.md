@@ -130,20 +130,24 @@ CLINIQUE was the most popular in the dataset and SEPHORA COLLECTION was the leas
  
 
 ### Rating Distribution
- ![image](https://github.com/user-attachments/assets/5bf94c5c-b63a-4dd9-afcc-81dbe441f81b)
+
+![image](https://github.com/user-attachments/assets/c02a78fe-9b6f-4283-8ea8-d761b4ca5c1f)
 
 Most products are highly rated
  
  
  ### Skin type vs Total feedback count
- ![image](https://github.com/user-attachments/assets/d8f70fe5-9c66-44e8-8661-62f1405d8a7e)
+ 
+ ![image](https://github.com/user-attachments/assets/9e38552d-173a-46d5-bf3e-64755a7d1dd6)
 
  Majority of the population had combination and dry skin types
 
  
 
  ### Price Category Distribution
- ![image](https://github.com/user-attachments/assets/89ba015f-e132-47f9-aa32-4beae66758a4)
+
+ ![image](https://github.com/user-attachments/assets/e7e27026-f8b7-4011-8207-a115e9a2f8a8)
+
 
 Most products range between 20 50 dollars. This shows a big percentage of products are affordable
  
