@@ -168,6 +168,9 @@ We trained a logistic regression model as our baseline. The model achieved:
 
 How all the models performed.
 
+![Capture100](https://github.com/user-attachments/assets/5ca1da8d-7856-4472-a197-7e4454536784)
+
+
 
 ### 6. Model Evaluation
 ### ROC Curve for Model Comparison
@@ -188,13 +191,10 @@ The model outperformed logistic regression by learning nonlinear connections. It
 
 With an AUC Score of 0.92 which was the highest score across all models, indicating that Random Forest performed the best in terms of balancing true and false positives. It displayed remarkable accuracy in recognizing recommended products.
 
-### Naive Bayes
-Naive Bayes is widely used in text categorization due to its simplicity and performance with high-dimensional inputs such as word frequencies or TF-IDF scores.
+### Linear SVC
+Linear SVC is a type of support vector machine implemented for classification tasks when there needs a separation between the features and class labels by means of a linear decision boundary. Linear SVC performs well in high dimensional data, robust to overfitting, and good for classification.
 
-Naive Bayes is simple to train and fast, it assumes feature independence, which restricts its capacity to grasp correlations between words. It is best used as a lightweight benchmark to compare with more complicated models.
-
-It was the lowest of the models, with the least AUC Score showing that it struggled to strike an adequate balance between recall and specificity. It was the least appropriate model in this circumstance.
-
+93% of the time, the model gives correct predictions. Although it is skewed a little bit by dominance of class 1, it has a pretty good macro average F1-score of 87%
 ### XGBOOST
 XGBoost is a high-performance gradient boosting technique popular for its speed, regularization, and predictive capability. It excels at managing unbalanced datasets and nonlinear patterns.
 
@@ -212,10 +212,15 @@ We picked XGBOOST because it was the best performing model for its excellent cla
 
 #### 7.2 Recommendations
 We recommend:
+
 -Personalized Product Displays for online stores.
+
 -DEI(Diversity, Equity, and Inclusion) Transparency for companies.
+
 -Promotional Targeting for online stores.
+
 -Generate educational content for customers on the range and pricing of products
+
 -Product use
 
 
