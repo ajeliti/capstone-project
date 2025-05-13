@@ -240,7 +240,7 @@ We recommend:
 
 #### 7.3 Next Steps
 
-- Creating a real-time sentiment insight dashboard for online stores.
+-Creating a real-time sentiment insight dashboard for online stores.
 This will generate reports based on real-time sentiments analysis, product monitoring, marketing insights and proactive customer service action.
 
 -Collect data to tailor it for the Kenyan market.
