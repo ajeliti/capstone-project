@@ -42,12 +42,14 @@ Main Objective: To perform sentiment analysis on customer reviews on products to
 
 -To detect common keywords and phrases to highlight positive, neutral and negative reviews on products to understand customer nsatisfaction and dissatisfaction.
 
--To provide actionable insights in order to improve customer satisfaction across various products, brands and categories.
+-To build a model that recommends products based on skin type, skin tone and price.
 
 ### Stakeholders
-Online stores that sell skin care products.
-Companies that produce and sell skin care products.
-Customers
+-Online stores that sell skin care products.
+
+-Companies that produce and sell skin care products.
+
+-Customers
 
 ### DATA UNDERSTANDING
 
@@ -55,15 +57,23 @@ The data was taken from kaggle. It contains information about beauty products fr
 
 The following are the key features for the dataset:
 
-rating: The rating given by the author for the product on a scale of 1 to 5
-is_recommended: Indicates if the author recommends the product or not (1-true, 0-false)
-total_feedback_count: Total number of feedback (positive and negative ratings) left by users for the review
-total_neg_feedback_count: The number of users who gave a negative rating for the review
-total_pos_feedback_count: The number of users who gave a positive rating for the review
-review_text: The main text of the review written by the author
-review_title: The title of the review written by the author
-skin_tone: Author's skin tone
-skin_type: Author's skin type
+-rating: The rating given by the author for the product on a scale of 1 to 5
+
+-is_recommended: Indicates if the author recommends the product or not (1-true, 0-false)
+
+-total_feedback_count: Total number of feedback (positive and negative ratings) left by users for the review
+
+-total_neg_feedback_count: The number of users who gave a negative rating for the review
+
+-total_pos_feedback_count: The number of users who gave a positive rating for the review
+
+-review_text: The main text of the review written by the author
+
+-review_title: The title of the review written by the author
+
+-skin_tone: Author's skin tone
+
+-skin_type: Author's skin type
 
 ### METRIC OF SUCCESS
 
@@ -233,6 +243,7 @@ We recommend:
 - Creating a real-time sentiment insight dashboard for online stores.
 This will generate reports based on real-time sentiments analysis, product monitoring, marketing insights and proactive customer service action.
 
+-Collect data to tailor it for the Kenyan market.
 
 
 
